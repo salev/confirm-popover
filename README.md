@@ -25,7 +25,7 @@ This code uses the following widely used packages:
 - Use confirm-popover.module.ts to incorporate the directive into your application.
 - Add __slv-confirm__ attribute to link / button which removes an object.
 ```js
-<button (click)="deleteFoo()" slv-confirm="To delete "{{fooName}}"?">Delete</button>
+<button (click)="deleteFoo()" slv-confirm="To delete foo?">Delete</button>
 ```
 
 _Note: if host of your delete link/button is a popover too then
