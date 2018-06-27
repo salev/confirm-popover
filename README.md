@@ -1,5 +1,4 @@
-# confirm-popover
-## SLV Confirmation Popopver (Angular 5)
+# SLV Confirmation Popopver (Angular 5)
 
 [Example](salev.github.io/angular/slv-confirm-popopver.html)
 
@@ -11,7 +10,7 @@ After confirmation it passes the click event further otherwise it stops the even
 
 _(It works similar to [this](http://jameskleeh.com/angular-confirm/) previous AngularJS version directive)_
 
-###Dependences
+### Dependences
 
 This code uses the following widely used packages:
 
@@ -21,6 +20,13 @@ This code uses the following widely used packages:
 
 3. Font Awesome
 
+### Usage
+
+- Use confirm-popover.module.ts to incorporate the directive into your application.
+- Add __slv-confirm__ attribute to link / button which removes an object.
+```js
+<button (click)="deleteFoo()" slv-confirm="To delete "{{fooName}}"?">Delete</button>
+```
 
 _Note: if host of your delete link/button is a popover too then
 use <code>@Input('isHostHidden')</code> to close the confirmation popover as well._ 
