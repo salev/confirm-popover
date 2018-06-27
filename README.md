@@ -14,11 +14,11 @@ _(It works similar to [this](http://jameskleeh.com/angular-confirm/) previous An
 
 This code uses the following widely used packages:
 
-1. Bootstrap (3 or 4)
+1. Bootstrap 3 or 4 (CSS of button, dialog).
 
-2. ngx-bootstrap
+2. ngx-bootstrap (its popover).
 
-3. Font Awesome
+3. Font Awesome.
 
 ### Usage
 
@@ -27,6 +27,8 @@ This code uses the following widely used packages:
 ```js
 <button (click)="deleteFoo()" slv-confirm="To delete foo?">Delete</button>
 ```
+
+Because the directive is based on ngx-bootstrap popover, it supports all its options, like placement.
 
 _Note: if host of your delete link/button is a popover too then
 use <code>@Input('isHostHidden')</code> to close the confirmation popover as well._ 
