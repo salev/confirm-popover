@@ -8,7 +8,7 @@ The directive just interrupts click event and shows a confirmation popover.
 
 After confirmation it passes the click event further otherwise it stops the event
 
-_(It works similar to [this](http://jameskleeh.com/angular-confirm/) previous AngularJS version directive)_
+_(It works in the same manner like [this](http://jameskleeh.com/angular-confirm/) previous, AngularJS version directive)_
 
 ### Dependences
 
