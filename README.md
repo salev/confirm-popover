@@ -1,6 +1,6 @@
 # SLV Confirmation Popopver (Angular 5)
 
-### [Example](salev.github.io/angular/slv-confirm-popopver.html)
+### [Example](salev.github.io/angular/slv-confirm-popopver)
 
 The __slv-confirm__ directive can be placed on anything that also has __(click)__ event binding.
 
