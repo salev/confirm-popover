@@ -1,4 +1,4 @@
-# SLV Confirmation Popopver (Angular 5)
+# Confirmation Popopver (Angular 5)
 
 ### [Example](https://salev.github.io/angular/slv-confirm-popopver/)
 
